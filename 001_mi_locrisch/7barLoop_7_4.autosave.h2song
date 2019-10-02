@@ -10,7 +10,7 @@
  <license>Unknown license</license>
  <loopEnabled>true</loopEnabled>
  <patternModeMode>true</patternModeMode>
- <mode>song</mode>
+ <mode>pattern</mode>
  <humanize_time>0</humanize_time>
  <humanize_velocity>0</humanize_velocity>
  <swing_factor>0</swing_factor>
