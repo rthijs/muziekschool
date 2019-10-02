@@ -1845,18 +1845,6 @@
     <note>
      <position>300</position>
      <leadlag>0</leadlag>
-     <velocity>0.58</velocity>
-     <pan_L>0.5</pan_L>
-     <pan_R>0.5</pan_R>
-     <pitch>0</pitch>
-     <key>C0</key>
-     <length>-1</length>
-     <instrument>6</instrument>
-     <note_off>false</note_off>
-    </note>
-    <note>
-     <position>300</position>
-     <leadlag>0</leadlag>
      <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
@@ -1912,6 +1900,18 @@
      <key>C0</key>
      <length>-1</length>
      <instrument>13</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>312</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>6</instrument>
      <note_off>false</note_off>
     </note>
     <note>
@@ -2393,18 +2393,6 @@
     <note>
      <position>300</position>
      <leadlag>0</leadlag>
-     <velocity>0.58</velocity>
-     <pan_L>0.5</pan_L>
-     <pan_R>0.5</pan_R>
-     <pitch>0</pitch>
-     <key>C0</key>
-     <length>-1</length>
-     <instrument>6</instrument>
-     <note_off>false</note_off>
-    </note>
-    <note>
-     <position>300</position>
-     <leadlag>0</leadlag>
      <velocity>0.8</velocity>
      <pan_L>0.5</pan_L>
      <pan_R>0.5</pan_R>
@@ -2460,6 +2448,18 @@
      <key>C0</key>
      <length>-1</length>
      <instrument>0</instrument>
+     <note_off>false</note_off>
+    </note>
+    <note>
+     <position>312</position>
+     <leadlag>0</leadlag>
+     <velocity>0.8</velocity>
+     <pan_L>0.5</pan_L>
+     <pan_R>0.5</pan_R>
+     <pitch>0</pitch>
+     <key>C0</key>
+     <length>-1</length>
+     <instrument>6</instrument>
      <note_off>false</note_off>
     </note>
     <note>
