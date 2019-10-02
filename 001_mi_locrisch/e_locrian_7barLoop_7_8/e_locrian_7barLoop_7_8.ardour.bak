@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session version="3002" name="e_locrian_7barLoop_7_8" sample-rate="44100" end-is-free="no" id-counter="6534" name-counter="1" event-counter="53564" vca-counter="1">
+  <ProgramVersion created-with="Ardour 1:5.5.0~dfsg-1+b1" modified-with="Ardour 1:5.5.0~dfsg-1+b1"/>
+  <MIDIPorts>
+    <Port name="MIDI Clock in" direction="input"/>
+    <Port name="MIDI Clock out" direction="output"/>
+    <Port name="MIDI control in" direction="input"/>
+    <Port name="MIDI control out" direction="output"/>
+    <Port name="MMC in" direction="input"/>
+    <Port name="MMC out" direction="output"/>
+    <Port name="MTC in" direction="input"/>
+    <Port name="MTC out" direction="output"/>
+    <Port name="Scene in" direction="input"/>
+    <Port name="Scene out" direction="output"/>
+  </MIDIPorts>
+  <Config>
+    <Option name="destructive-xfade-msecs" value="2"/>
+    <Option name="use-region-fades" value="1"/>
+    <Option name="use-transport-fades" value="1"/>
+    <Option name="use-monitor-fades" value="1"/>
+    <Option name="native-file-data-format" value="FormatFloat"/>
+    <Option name="native-file-header-format" value="WAVE"/>
+    <Option name="auto-play" value="0"/>
+    <Option name="auto-return" value="0"/>
+    <Option name="auto-input" value="1"/>
+    <Option name="punch-in" value="0"/>
+    <Option name="punch-out" value="0"/>
+    <Option name="subframes-per-frame" value="100"/>
+    <Option name="timecode-format" value="timecode_30"/>
+    <Option name="raid-path" value=""/>
+    <Option name="audio-search-path" value=""/>
+    <Option name="midi-search-path" value=""/>
+    <Option name="track-name-number" value="0"/>
+    <Option name="track-name-take" value="0"/>
+    <Option name="take-name" value="Take1"/>
+    <Option name="jack-time-master" value="1"/>
+    <Option name="use-video-sync" value="0"/>
+    <Option name="video-pullup" value="0"/>
+    <Option name="external-sync" value="0"/>
+    <Option name="insert-merge-policy" value="InsertMergeRelax"/>
+    <Option name="timecode-offset" value="0"/>
+    <Option name="timecode-offset-negative" value="1"/>
+    <Option name="slave-timecode-offset" value=" 00:00:00:00"/>
+    <Option name="timecode-generator-offset" value=" 00:00:00:00"/>
+    <Option name="glue-new-markers-to-bars-and-beats" value="0"/>
+    <Option name="midi-copy-is-fork" value="0"/>
+    <Option name="glue-new-regions-to-bars-and-beats" value="0"/>
+    <Option name="realtime-export" value="0"/>
+    <Option name="use-video-file-fps" value="0"/>
+    <Option name="videotimeline-pullup" value="1"/>
+    <Option name="wave-amplitude-zoom" value="0"/>
+    <Option name="wave-zoom-factor" value="2"/>
+    <Option name="show-summary" value="1"/>
+    <Option name="show-group-tabs" value="1"/>
+    <Option name="show-region-fades" value="1"/>
+    <Option name="show-busses-on-meterbridge" value="0"/>
+    <Option name="show-master-on-meterbridge" value="1"/>
+    <Option name="show-midi-on-meterbridge" value="1"/>
+    <Option name="show-rec-on-meterbridge" value="1"/>
+    <Option name="show-mute-on-meterbridge" value="0"/>
+    <Option name="show-solo-on-meterbridge" value="0"/>
+    <Option name="show-monitor-on-meterbridge" value="0"/>
+    <Option name="show-name-on-meterbridge" value="1"/>
+    <Option name="meterbridge-label-height" value="0"/>
+  </Config>
+  <Metadata/>
+  <Sources>
+    <Source name="MIDI-1.mid" type="midi" flags="Writable,CanRename,Removable,RemovableIfEmpty,Empty" id="800" origin=""/>
+    <Source name="MIDI-2.mid" type="midi" flags="Writable,CanRename" id="809" origin=""/>
+    <Source name="MIDI-3.mid" type="midi" flags="Writable,CanRename,Removable,RemovableIfEmpty,Empty" id="829" origin=""/>
+    <Source name="MIDI-4.mid" type="midi" flags="Writable,CanRename" id="840" origin=""/>
+    <Source name="Bass-1.mid" type="midi" flags="Writable,CanRename" id="1236" origin=""/>
+    <Source name="Drums-1%L.wav" type="audio" flags="" id="4716" captured-for="Drums" channel="0" origin=""/>
+    <Source name="Drums-1%R.wav" type="audio" flags="" id="4718" captured-for="Drums" channel="0" origin=""/>
+    <Source name="Bass-2.mid" type="midi" flags="Writable,CanRename,Removable,RemovableIfEmpty,Empty" id="4770" origin=""/>
+  </Sources>
+  <Regions>
+    <Region name="MIDI-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="132299" position="8085000" beat="275" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="4.5" id="802" type="midi" first-edit="nothing" source-0="800" master-source-0="800"/>
+    <Region name="MIDI-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="88200" length="7349" position="8143800" beat="277" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="3" length-beats="0.249965986395" id="811" type="midi" first-edit="nothing" source-0="809" master-source-0="809"/>
+    <Region name="MIDI-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="823199" position="8026200" beat="273" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="28" id="831" type="midi" first-edit="nothing" source-0="829" master-source-0="829"/>
+    <Region name="Bass-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="205800" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="7" id="2857" type="midi" first-edit="nothing" source-0="1236" master-source-0="1236"/>
+    <Region name="Drums-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1472512" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4742" type="audio" first-edit="nothing" source-0="4716" source-1="4718" master-source-0="4716" master-source-1="4718" channels="2"/>
+    <Region name="Drums-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1472512" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4750" type="audio" first-edit="nothing" source-0="4716" source-1="4718" master-source-0="4716" master-source-1="4718" channels="2"/>
+    <Region name="Bass-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7350" position="1477350" beat="50.25" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="0.25" id="4772" type="midi" first-edit="nothing" source-0="4770" master-source-0="4770"/>
+    <Region name="Drums-1.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1470000" position="1540" beat="0.052380952381" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4778" type="audio" first-edit="nothing" source-0="4716" source-1="4718" master-source-0="4716" master-source-1="4718" channels="2"/>
+    <Region name="Drums-1.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1470000" length="2512" position="1471960" beat="50.0666666667" sync-position="1470000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4787" type="audio" first-edit="nothing" source-0="4716" source-1="4718" master-source-0="4716" master-source-1="4718" channels="2"/>
+    <Region name="Drums-1.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1440600" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4807" type="audio" first-edit="nothing" source-0="4716" source-1="4718" master-source-0="4716" master-source-1="4718" channels="2"/>
+    <Region name="Drums-1.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1440600" length="29400" position="1440600" beat="49" sync-position="1440600" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4816" type="audio" first-edit="nothing" source-0="4716" source-1="4718" master-source-0="4716" master-source-1="4718" channels="2"/>
+    <Region name="Drums-1.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1468460" position="1540" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4927" type="audio" first-edit="nothing" source-0="4716" source-1="4718" master-source-0="4716" master-source-1="4718" channels="2"/>
+    <Region name="Drums-1.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1468460" length="1540" position="1470000" beat="50" sync-position="1468460" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4936" type="audio" first-edit="nothing" source-0="4716" source-1="4718" master-source-0="4716" master-source-1="4718" channels="2"/>
+    <Region name="Drums-1.8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1439060" position="1540" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4954" type="audio" first-edit="nothing" source-0="4716" source-1="4718" master-source-0="4716" master-source-1="4718" channels="2"/>
+    <Region name="Drums-1.9" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1439060" length="29400" position="1440600" beat="49" sync-position="1439060" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4963" type="audio" first-edit="nothing" source-0="4716" source-1="4718" master-source-0="4716" master-source-1="4718" channels="2"/>
+    <Region name="Drums-1.10" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="27860" position="1540" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="4996" type="audio" first-edit="nothing" source-0="4716" source-1="4718" master-source-0="4716" master-source-1="4718" channels="2"/>
+    <Region name="Drums-1.14" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1439060" length="29400" position="58800" beat="2" sync-position="1439060" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5073" type="audio" first-edit="nothing" source-0="4716" source-1="4718" master-source-0="4716" master-source-1="4718" channels="2"/>
+  </Regions>
+  <Locations>
+    <Location id="805" name="session" start="0" end="1440600" flags="IsSessionRange" locked="no" position-lock-style="AudioTime"/>
+    <Location id="3281" name="Loop" start="0" end="1440600" flags="IsAutoLoop" locked="no" position-lock-style="AudioTime"/>
+  </Locations>
+  <Bundles/>
+  <VCAManager/>
+  <Routes>
+    <Route id="51" name="Master" default-type="audio" strict-io="0" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterK20">
+      <PresentationInfo order="0" flags="MasterOut" color="4222009087"/>
+      <Controllable name="solo" id="59" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="65" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="67" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <IO name="Master" id="79" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Master/audio_in 1">
+          <Connection other="Bass/audio_out 1"/>
+          <Connection other="Drums/audio_out 1"/>
+          <Connection other="lead/audio_out 1"/>
+        </Port>
+        <Port type="audio" name="Master/audio_in 2">
+          <Connection other="Bass/audio_out 2"/>
+          <Connection other="Drums/audio_out 2"/>
+          <Connection other="lead/audio_out 2"/>
+        </Port>
+      </IO>
+      <IO name="Master" id="80" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Master/audio_out 1">
+          <Connection other="system:playback_1"/>
+        </Port>
+        <Port type="audio" name="Master/audio_out 2">
+          <Connection other="system:playback_2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Controllable name="mute" id="61" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="phase" id="63" flags="Toggle" value="0.000000000000" phase-invert="00"/>
+      <Automation/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="70" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="74" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="72" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="76" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="78" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="82" name="Amp" active="yes" user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="57" flags="GainLike" value="1.000000000000"/>
+      </Processor>
+      <Processor id="81" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="55" flags="GainLike" value="1.000000000000"/>
+      </Processor>
+      <Processor id="83" name="meter-Master" active="yes" user-latency="0" type="meter"/>
+      <Processor id="84" name="Master" active="yes" user-latency="0" own-input="yes" own-output="no" output="Master" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="70" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="74" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="72" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="76" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="78" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+    </Route>
+    <Route id="445" name="lead" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="yes">
+      <PresentationInfo order="1" flags="MidiTrack,OrderSet" color="2732956927"/>
+      <Controllable name="solo" id="453" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="459" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="461" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <IO name="lead" id="473" direction="Input" default-type="midi" user-latency="0">
+        <Port type="midi" name="lead/midi_in 1"/>
+      </IO>
+      <IO name="lead" id="474" direction="Output" default-type="midi" user-latency="0">
+        <Port type="audio" name="lead/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="lead/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+        <Port type="midi" name="lead/midi_out 1"/>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Controllable name="mute" id="455" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="phase" id="457" flags="Toggle" value="0.000000000000" phase-invert=""/>
+      <Automation/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="464" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="468" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="466" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="470" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="472" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="512" name="Helm" active="yes" user-latency="0" type="lv2" unique-id="http://tytel.org/helm" count="1" custom="no">
+        <ConfiguredInput>
+          <Channels type="midi" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="midi" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="midi" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state7">
+          <Port symbol="lv2_freewheel" value="+0.000000"/>
+          <Port symbol="amp_attack" value="+0.027386"/>
+          <Port symbol="amp_decay" value="+0.375000"/>
+          <Port symbol="amp_release" value="+0.075000"/>
+          <Port symbol="amp_sustain" value="+1.000000"/>
+          <Port symbol="arp_frequency" value="+0.600000"/>
+          <Port symbol="arp_gate" value="+0.500000"/>
+          <Port symbol="arp_octaves" value="+0.000000"/>
+          <Port symbol="arp_on" value="+0.000000"/>
+          <Port symbol="arp_pattern" value="+0.000000"/>
+          <Port symbol="arp_sync" value="+0.333333"/>
+          <Port symbol="arp_tempo" value="+0.818182"/>
+          <Port symbol="beats_per_minute" value="+0.357143"/>
+          <Port symbol="cross_modulation" value="+0.000000"/>
+          <Port symbol="cutoff" value="+0.525253"/>
+          <Port symbol="delay_dry_wet" value="+0.500000"/>
+          <Port symbol="delay_feedback" value="+0.700000"/>
+          <Port symbol="delay_frequency" value="+0.571429"/>
+          <Port symbol="delay_on" value="+0.000000"/>
+          <Port symbol="delay_sync" value="+0.333333"/>
+          <Port symbol="delay_tempo" value="+0.818182"/>
+          <Port symbol="distortion_drive" value="+0.500000"/>
+          <Port symbol="distortion_mix" value="+1.000000"/>
+          <Port symbol="distortion_on" value="+0.000000"/>
+          <Port symbol="distortion_type" value="+0.000000"/>
+          <Port symbol="fil_attack" value="+0.000000"/>
+          <Port symbol="fil_decay" value="+0.375000"/>
+          <Port symbol="fil_env_depth" value="+0.500000"/>
+          <Port symbol="fil_release" value="+0.375000"/>
+          <Port symbol="fil_sustain" value="+0.500000"/>
+          <Port symbol="filter_blend" value="+0.000000"/>
+          <Port symbol="filter_drive" value="+0.375000"/>
+          <Port symbol="filter_on" value="+1.000000"/>
+          <Port symbol="filter_shelf" value="+0.000000"/>
+          <Port symbol="filter_style" value="+0.000000"/>
+          <Port symbol="formant_on" value="+0.000000"/>
+          <Port symbol="formant_x" value="+0.500000"/>
+          <Port symbol="formant_y" value="+0.500000"/>
+          <Port symbol="keytrack" value="+0.500000"/>
+          <Port symbol="legato" value="+0.000000"/>
+          <Port symbol="mod_attack" value="+0.000000"/>
+          <Port symbol="mod_decay" value="+0.375000"/>
+          <Port symbol="mod_release" value="+0.375000"/>
+          <Port symbol="mod_sustain" value="+0.500000"/>
+          <Port symbol="mono_lfo_1_amplitude" value="+1.000000"/>
+          <Port symbol="mono_lfo_1_frequency" value="+0.615385"/>
+          <Port symbol="mono_lfo_1_retrigger" value="+1.000000"/>
+          <Port symbol="mono_lfo_1_sync" value="+0.333333"/>
+          <Port symbol="mono_lfo_1_tempo" value="+0.545455"/>
+          <Port symbol="mono_lfo_1_waveform" value="+0.000000"/>
+          <Port symbol="mono_lfo_2_amplitude" value="+1.000000"/>
+          <Port symbol="mono_lfo_2_frequency" value="+0.615385"/>
+          <Port symbol="mono_lfo_2_retrigger" value="+1.000000"/>
+          <Port symbol="mono_lfo_2_sync" value="+0.333333"/>
+          <Port symbol="mono_lfo_2_tempo" value="+0.636364"/>
+          <Port symbol="mono_lfo_2_waveform" value="+0.000000"/>
+          <Port symbol="noise_volume" value="+0.000000"/>
+          <Port symbol="num_steps" value="+0.225806"/>
+          <Port symbol="osc_1_transpose" value="+0.500000"/>
+          <Port symbol="osc_1_tune" value="+0.500000"/>
+          <Port symbol="osc_1_unison_detune" value="+0.100000"/>
+          <Port symbol="osc_1_unison_voices" value="+0.000000"/>
+          <Port symbol="osc_1_volume" value="+0.547723"/>
+          <Port symbol="osc_1_waveform" value="+0.100000"/>
+          <Port symbol="osc_2_transpose" value="+0.500000"/>
+          <Port symbol="osc_2_tune" value="+0.500000"/>
+          <Port symbol="osc_2_unison_detune" value="+0.100000"/>
+          <Port symbol="osc_2_unison_voices" value="+0.000000"/>
+          <Port symbol="osc_2_volume" value="+0.547723"/>
+          <Port symbol="osc_2_waveform" value="+0.400000"/>
+          <Port symbol="osc_feedback_amount" value="+0.500000"/>
+          <Port symbol="osc_feedback_transpose" value="+0.500000"/>
+          <Port symbol="osc_feedback_tune" value="+0.500000"/>
+          <Port symbol="pitch_bend_range" value="+0.083333"/>
+          <Port symbol="poly_lfo_amplitude" value="+1.000000"/>
+          <Port symbol="poly_lfo_frequency" value="+0.615385"/>
+          <Port symbol="poly_lfo_sync" value="+0.333333"/>
+          <Port symbol="poly_lfo_tempo" value="+0.636364"/>
+          <Port symbol="poly_lfo_waveform" value="+0.000000"/>
+          <Port symbol="polyphony" value="+0.096774"/>
+          <Port symbol="portamento" value="+0.250000"/>
+          <Port symbol="portamento_type" value="+0.000000"/>
+          <Port symbol="resonance" value="+0.500000"/>
+          <Port symbol="reverb_damping" value="+0.500000"/>
+          <Port symbol="reverb_dry_wet" value="+0.500000"/>
+          <Port symbol="reverb_feedback" value="+0.500000"/>
+          <Port symbol="reverb_on" value="+1.000000"/>
+          <Port symbol="step_frequency" value="+0.636364"/>
+          <Port symbol="step_seq_00" value="+0.500000"/>
+          <Port symbol="step_seq_01" value="+0.500000"/>
+          <Port symbol="step_seq_02" value="+0.500000"/>
+          <Port symbol="step_seq_03" value="+0.500000"/>
+          <Port symbol="step_seq_04" value="+0.500000"/>
+          <Port symbol="step_seq_05" value="+0.500000"/>
+          <Port symbol="step_seq_06" value="+0.500000"/>
+          <Port symbol="step_seq_07" value="+0.500000"/>
+          <Port symbol="step_seq_08" value="+0.500000"/>
+          <Port symbol="step_seq_09" value="+0.500000"/>
+          <Port symbol="step_seq_10" value="+0.500000"/>
+          <Port symbol="step_seq_11" value="+0.500000"/>
+          <Port symbol="step_seq_12" value="+0.500000"/>
+          <Port symbol="step_seq_13" value="+0.500000"/>
+          <Port symbol="step_seq_14" value="+0.500000"/>
+          <Port symbol="step_seq_15" value="+0.500000"/>
+          <Port symbol="step_seq_16" value="+0.500000"/>
+          <Port symbol="step_seq_17" value="+0.500000"/>
+          <Port symbol="step_seq_18" value="+0.500000"/>
+          <Port symbol="step_seq_19" value="+0.500000"/>
+          <Port symbol="step_seq_20" value="+0.500000"/>
+          <Port symbol="step_seq_21" value="+0.500000"/>
+          <Port symbol="step_seq_22" value="+0.500000"/>
+          <Port symbol="step_seq_23" value="+0.500000"/>
+          <Port symbol="step_seq_24" value="+0.500000"/>
+          <Port symbol="step_seq_25" value="+0.500000"/>
+          <Port symbol="step_seq_26" value="+0.500000"/>
+          <Port symbol="step_seq_27" value="+0.500000"/>
+          <Port symbol="step_seq_28" value="+0.500000"/>
+          <Port symbol="step_seq_29" value="+0.500000"/>
+          <Port symbol="step_seq_30" value="+0.500000"/>
+          <Port symbol="step_seq_31" value="+0.500000"/>
+          <Port symbol="step_sequencer_retrigger" value="+1.000000"/>
+          <Port symbol="step_sequencer_sync" value="+0.333333"/>
+          <Port symbol="step_sequencer_tempo" value="+0.636364"/>
+          <Port symbol="step_smoothing" value="+0.000000"/>
+          <Port symbol="stutter_frequency" value="+0.428571"/>
+          <Port symbol="stutter_on" value="+0.000000"/>
+          <Port symbol="stutter_resample_frequency" value="+0.727273"/>
+          <Port symbol="stutter_resample_sync" value="+0.333333"/>
+          <Port symbol="stutter_resample_tempo" value="+0.545455"/>
+          <Port symbol="stutter_softness" value="+0.200000"/>
+          <Port symbol="stutter_sync" value="+0.333333"/>
+          <Port symbol="stutter_tempo" value="+0.400000"/>
+          <Port symbol="sub_octave" value="+0.000000"/>
+          <Port symbol="sub_shuffle" value="+0.000000"/>
+          <Port symbol="sub_volume" value="+0.000000"/>
+          <Port symbol="sub_waveform" value="+0.200000"/>
+          <Port symbol="unison_1_harmonize" value="+0.000000"/>
+          <Port symbol="unison_2_harmonize" value="+0.000000"/>
+          <Port symbol="velocity_track" value="+0.500000"/>
+          <Port symbol="volume" value="+0.499969"/>
+        </lv2>
+        <Controllable name="hidden" id="514" flags="Toggle" value="0.000000000000" parameter="1" symbol="lv2_freewheel"/>
+        <Controllable name="amp_attack" id="516" flags="" value="0.027386000380" parameter="5" symbol="amp_attack"/>
+        <Controllable name="amp_decay" id="518" flags="" value="0.375000000000" parameter="6" symbol="amp_decay"/>
+        <Controllable name="amp_release" id="520" flags="" value="0.075000002980" parameter="7" symbol="amp_release"/>
+        <Controllable name="amp_sustain" id="522" flags="" value="1.000000000000" parameter="8" symbol="amp_sustain"/>
+        <Controllable name="arp_frequency" id="524" flags="" value="0.600000023842" parameter="9" symbol="arp_frequency"/>
+        <Controllable name="arp_gate" id="526" flags="" value="0.500000000000" parameter="10" symbol="arp_gate"/>
+        <Controllable name="arp_octaves" id="528" flags="" value="0.000000000000" parameter="11" symbol="arp_octaves"/>
+        <Controllable name="arp_on" id="530" flags="" value="0.000000000000" parameter="12" symbol="arp_on"/>
+        <Controllable name="arp_pattern" id="532" flags="" value="0.000000000000" parameter="13" symbol="arp_pattern"/>
+        <Controllable name="arp_sync" id="534" flags="" value="0.333332985640" parameter="14" symbol="arp_sync"/>
+        <Controllable name="arp_tempo" id="536" flags="" value="0.818181991577" parameter="15" symbol="arp_tempo"/>
+        <Controllable name="beats_per_minute" id="538" flags="" value="0.357143014669" parameter="16" symbol="beats_per_minute"/>
+        <Controllable name="cross_modulation" id="540" flags="" value="0.000000000000" parameter="17" symbol="cross_modulation"/>
+        <Controllable name="cutoff" id="542" flags="" value="0.525252997875" parameter="18" symbol="cutoff"/>
+        <Controllable name="delay_dry_wet" id="544" flags="" value="0.500000000000" parameter="19" symbol="delay_dry_wet"/>
+        <Controllable name="delay_feedback" id="546" flags="" value="0.699999988079" parameter="20" symbol="delay_feedback"/>
+        <Controllable name="delay_frequency" id="548" flags="" value="0.571429014206" parameter="21" symbol="delay_frequency"/>
+        <Controllable name="delay_on" id="550" flags="" value="0.000000000000" parameter="22" symbol="delay_on"/>
+        <Controllable name="delay_sync" id="552" flags="" value="0.333332985640" parameter="23" symbol="delay_sync"/>
+        <Controllable name="delay_tempo" id="554" flags="" value="0.818181991577" parameter="24" symbol="delay_tempo"/>
+        <Controllable name="distortion_drive" id="556" flags="" value="0.500000000000" parameter="25" symbol="distortion_drive"/>
+        <Controllable name="distortion_mix" id="558" flags="" value="1.000000000000" parameter="26" symbol="distortion_mix"/>
+        <Controllable name="distortion_on" id="560" flags="" value="0.000000000000" parameter="27" symbol="distortion_on"/>
+        <Controllable name="distortion_type" id="562" flags="" value="0.000000000000" parameter="28" symbol="distortion_type"/>
+        <Controllable name="fil_attack" id="564" flags="" value="0.000000000000" parameter="29" symbol="fil_attack"/>
+        <Controllable name="fil_decay" id="566" flags="" value="0.375000000000" parameter="30" symbol="fil_decay"/>
+        <Controllable name="fil_env_depth" id="568" flags="" value="0.500000000000" parameter="31" symbol="fil_env_depth"/>
+        <Controllable name="fil_release" id="570" flags="" value="0.375000000000" parameter="32" symbol="fil_release"/>
+        <Controllable name="fil_sustain" id="572" flags="" value="0.500000000000" parameter="33" symbol="fil_sustain"/>
+        <Controllable name="filter_blend" id="574" flags="" value="0.000000000000" parameter="34" symbol="filter_blend"/>
+        <Controllable name="filter_drive" id="576" flags="" value="0.375000000000" parameter="35" symbol="filter_drive"/>
+        <Controllable name="filter_on" id="578" flags="" value="1.000000000000" parameter="36" symbol="filter_on"/>
+        <Controllable name="filter_shelf" id="580" flags="" value="0.000000000000" parameter="37" symbol="filter_shelf"/>
+        <Controllable name="filter_style" id="582" flags="" value="0.000000000000" parameter="38" symbol="filter_style"/>
+        <Controllable name="formant_on" id="584" flags="" value="0.000000000000" parameter="39" symbol="formant_on"/>
+        <Controllable name="formant_x" id="586" flags="" value="0.500000000000" parameter="40" symbol="formant_x"/>
+        <Controllable name="formant_y" id="588" flags="" value="0.500000000000" parameter="41" symbol="formant_y"/>
+        <Controllable name="keytrack" id="590" flags="" value="0.500000000000" parameter="42" symbol="keytrack"/>
+        <Controllable name="legato" id="592" flags="" value="0.000000000000" parameter="43" symbol="legato"/>
+        <Controllable name="mod_attack" id="594" flags="" value="0.000000000000" parameter="44" symbol="mod_attack"/>
+        <Controllable name="mod_decay" id="596" flags="" value="0.375000000000" parameter="45" symbol="mod_decay"/>
+        <Controllable name="mod_release" id="598" flags="" value="0.375000000000" parameter="46" symbol="mod_release"/>
+        <Controllable name="mod_sustain" id="600" flags="" value="0.500000000000" parameter="47" symbol="mod_sustain"/>
+        <Controllable name="mono_lfo_1_amplitude" id="602" flags="" value="1.000000000000" parameter="48" symbol="mono_lfo_1_amplitude"/>
+        <Controllable name="mono_lfo_1_frequency" id="604" flags="" value="0.615384995937" parameter="49" symbol="mono_lfo_1_frequency"/>
+        <Controllable name="mono_lfo_1_retrigger" id="606" flags="" value="1.000000000000" parameter="50" symbol="mono_lfo_1_retrigger"/>
+        <Controllable name="mono_lfo_1_sync" id="608" flags="" value="0.333332985640" parameter="51" symbol="mono_lfo_1_sync"/>
+        <Controllable name="mono_lfo_1_tempo" id="610" flags="" value="0.545454978943" parameter="52" symbol="mono_lfo_1_tempo"/>
+        <Controllable name="mono_lfo_1_waveform" id="612" flags="" value="0.000000000000" parameter="53" symbol="mono_lfo_1_waveform"/>
+        <Controllable name="mono_lfo_2_amplitude" id="614" flags="" value="1.000000000000" parameter="54" symbol="mono_lfo_2_amplitude"/>
+        <Controllable name="mono_lfo_2_frequency" id="616" flags="" value="0.615384995937" parameter="55" symbol="mono_lfo_2_frequency"/>
+        <Controllable name="mono_lfo_2_retrigger" id="618" flags="" value="1.000000000000" parameter="56" symbol="mono_lfo_2_retrigger"/>
+        <Controllable name="mono_lfo_2_sync" id="620" flags="" value="0.333332985640" parameter="57" symbol="mono_lfo_2_sync"/>
+        <Controllable name="mono_lfo_2_tempo" id="622" flags="" value="0.636363983154" parameter="58" symbol="mono_lfo_2_tempo"/>
+        <Controllable name="mono_lfo_2_waveform" id="624" flags="" value="0.000000000000" parameter="59" symbol="mono_lfo_2_waveform"/>
+        <Controllable name="noise_volume" id="626" flags="" value="0.000000000000" parameter="60" symbol="noise_volume"/>
+        <Controllable name="num_steps" id="628" flags="" value="0.225805997849" parameter="61" symbol="num_steps"/>
+        <Controllable name="osc_1_transpose" id="630" flags="" value="0.500000000000" parameter="62" symbol="osc_1_transpose"/>
+        <Controllable name="osc_1_tune" id="632" flags="" value="0.500000000000" parameter="63" symbol="osc_1_tune"/>
+        <Controllable name="osc_1_unison_detune" id="634" flags="" value="0.100000001490" parameter="64" symbol="osc_1_unison_detune"/>
+        <Controllable name="osc_1_unison_voices" id="636" flags="" value="0.000000000000" parameter="65" symbol="osc_1_unison_voices"/>
+        <Controllable name="osc_1_volume" id="638" flags="" value="0.547722995281" parameter="66" symbol="osc_1_volume"/>
+        <Controllable name="osc_1_waveform" id="640" flags="" value="0.100000001490" parameter="67" symbol="osc_1_waveform"/>
+        <Controllable name="osc_2_transpose" id="642" flags="" value="0.500000000000" parameter="68" symbol="osc_2_transpose"/>
+        <Controllable name="osc_2_tune" id="644" flags="" value="0.500000000000" parameter="69" symbol="osc_2_tune"/>
+        <Controllable name="osc_2_unison_detune" id="646" flags="" value="0.100000001490" parameter="70" symbol="osc_2_unison_detune"/>
+        <Controllable name="osc_2_unison_voices" id="648" flags="" value="0.000000000000" parameter="71" symbol="osc_2_unison_voices"/>
+        <Controllable name="osc_2_volume" id="650" flags="" value="0.547722995281" parameter="72" symbol="osc_2_volume"/>
+        <Controllable name="osc_2_waveform" id="652" flags="" value="0.400000005960" parameter="73" symbol="osc_2_waveform"/>
+        <Controllable name="osc_feedback_amount" id="654" flags="" value="0.500000000000" parameter="74" symbol="osc_feedback_amount"/>
+        <Controllable name="osc_feedback_transpose" id="656" flags="" value="0.500000000000" parameter="75" symbol="osc_feedback_transpose"/>
+        <Controllable name="osc_feedback_tune" id="658" flags="" value="0.500000000000" parameter="76" symbol="osc_feedback_tune"/>
+        <Controllable name="pitch_bend_range" id="660" flags="" value="0.083333000541" parameter="77" symbol="pitch_bend_range"/>
+        <Controllable name="poly_lfo_amplitude" id="662" flags="" value="1.000000000000" parameter="78" symbol="poly_lfo_amplitude"/>
+        <Controllable name="poly_lfo_frequency" id="664" flags="" value="0.615384995937" parameter="79" symbol="poly_lfo_frequency"/>
+        <Controllable name="poly_lfo_sync" id="666" flags="" value="0.333332985640" parameter="80" symbol="poly_lfo_sync"/>
+        <Controllable name="poly_lfo_tempo" id="668" flags="" value="0.636363983154" parameter="81" symbol="poly_lfo_tempo"/>
+        <Controllable name="poly_lfo_waveform" id="670" flags="" value="0.000000000000" parameter="82" symbol="poly_lfo_waveform"/>
+        <Controllable name="polyphony" id="672" flags="" value="0.096773996949" parameter="83" symbol="polyphony"/>
+        <Controllable name="portamento" id="674" flags="" value="0.250000000000" parameter="84" symbol="portamento"/>
+        <Controllable name="portamento_type" id="676" flags="" value="0.000000000000" parameter="85" symbol="portamento_type"/>
+        <Controllable name="resonance" id="678" flags="" value="0.500000000000" parameter="86" symbol="resonance"/>
+        <Controllable name="reverb_damping" id="680" flags="" value="0.500000000000" parameter="87" symbol="reverb_damping"/>
+        <Controllable name="reverb_dry_wet" id="682" flags="" value="0.500000000000" parameter="88" symbol="reverb_dry_wet"/>
+        <Controllable name="reverb_feedback" id="684" flags="" value="0.500000000000" parameter="89" symbol="reverb_feedback"/>
+        <Controllable name="reverb_on" id="686" flags="" value="1.000000000000" parameter="90" symbol="reverb_on"/>
+        <Controllable name="step_frequency" id="688" flags="" value="0.636363983154" parameter="91" symbol="step_frequency"/>
+        <Controllable name="step_seq_00" id="690" flags="" value="0.500000000000" parameter="92" symbol="step_seq_00"/>
+        <Controllable name="step_seq_01" id="692" flags="" value="0.500000000000" parameter="93" symbol="step_seq_01"/>
+        <Controllable name="step_seq_02" id="694" flags="" value="0.500000000000" parameter="94" symbol="step_seq_02"/>
+        <Controllable name="step_seq_03" id="696" flags="" value="0.500000000000" parameter="95" symbol="step_seq_03"/>
+        <Controllable name="step_seq_04" id="698" flags="" value="0.500000000000" parameter="96" symbol="step_seq_04"/>
+        <Controllable name="step_seq_05" id="700" flags="" value="0.500000000000" parameter="97" symbol="step_seq_05"/>
+        <Controllable name="step_seq_06" id="702" flags="" value="0.500000000000" parameter="98" symbol="step_seq_06"/>
+        <Controllable name="step_seq_07" id="704" flags="" value="0.500000000000" parameter="99" symbol="step_seq_07"/>
+        <Controllable name="step_seq_08" id="706" flags="" value="0.500000000000" parameter="100" symbol="step_seq_08"/>
+        <Controllable name="step_seq_09" id="708" flags="" value="0.500000000000" parameter="101" symbol="step_seq_09"/>
+        <Controllable name="step_seq_10" id="710" flags="" value="0.500000000000" parameter="102" symbol="step_seq_10"/>
+        <Controllable name="step_seq_11" id="712" flags="" value="0.500000000000" parameter="103" symbol="step_seq_11"/>
+        <Controllable name="step_seq_12" id="714" flags="" value="0.500000000000" parameter="104" symbol="step_seq_12"/>
+        <Controllable name="step_seq_13" id="716" flags="" value="0.500000000000" parameter="105" symbol="step_seq_13"/>
+        <Controllable name="step_seq_14" id="718" flags="" value="0.500000000000" parameter="106" symbol="step_seq_14"/>
+        <Controllable name="step_seq_15" id="720" flags="" value="0.500000000000" parameter="107" symbol="step_seq_15"/>
+        <Controllable name="step_seq_16" id="722" flags="" value="0.500000000000" parameter="108" symbol="step_seq_16"/>
+        <Controllable name="step_seq_17" id="724" flags="" value="0.500000000000" parameter="109" symbol="step_seq_17"/>
+        <Controllable name="step_seq_18" id="726" flags="" value="0.500000000000" parameter="110" symbol="step_seq_18"/>
+        <Controllable name="step_seq_19" id="728" flags="" value="0.500000000000" parameter="111" symbol="step_seq_19"/>
+        <Controllable name="step_seq_20" id="730" flags="" value="0.500000000000" parameter="112" symbol="step_seq_20"/>
+        <Controllable name="step_seq_21" id="732" flags="" value="0.500000000000" parameter="113" symbol="step_seq_21"/>
+        <Controllable name="step_seq_22" id="734" flags="" value="0.500000000000" parameter="114" symbol="step_seq_22"/>
+        <Controllable name="step_seq_23" id="736" flags="" value="0.500000000000" parameter="115" symbol="step_seq_23"/>
+        <Controllable name="step_seq_24" id="738" flags="" value="0.500000000000" parameter="116" symbol="step_seq_24"/>
+        <Controllable name="step_seq_25" id="740" flags="" value="0.500000000000" parameter="117" symbol="step_seq_25"/>
+        <Controllable name="step_seq_26" id="742" flags="" value="0.500000000000" parameter="118" symbol="step_seq_26"/>
+        <Controllable name="step_seq_27" id="744" flags="" value="0.500000000000" parameter="119" symbol="step_seq_27"/>
+        <Controllable name="step_seq_28" id="746" flags="" value="0.500000000000" parameter="120" symbol="step_seq_28"/>
+        <Controllable name="step_seq_29" id="748" flags="" value="0.500000000000" parameter="121" symbol="step_seq_29"/>
+        <Controllable name="step_seq_30" id="750" flags="" value="0.500000000000" parameter="122" symbol="step_seq_30"/>
+        <Controllable name="step_seq_31" id="752" flags="" value="0.500000000000" parameter="123" symbol="step_seq_31"/>
+        <Controllable name="step_sequencer_retrigger" id="754" flags="" value="1.000000000000" parameter="124" symbol="step_sequencer_retrigger"/>
+        <Controllable name="step_sequencer_sync" id="756" flags="" value="0.333332985640" parameter="125" symbol="step_sequencer_sync"/>
+        <Controllable name="step_sequencer_tempo" id="758" flags="" value="0.636363983154" parameter="126" symbol="step_sequencer_tempo"/>
+        <Controllable name="step_smoothing" id="760" flags="" value="0.000000000000" parameter="127" symbol="step_smoothing"/>
+        <Controllable name="stutter_frequency" id="762" flags="" value="0.428570985794" parameter="128" symbol="stutter_frequency"/>
+        <Controllable name="stutter_on" id="764" flags="" value="0.000000000000" parameter="129" symbol="stutter_on"/>
+        <Controllable name="stutter_resample_frequency" id="766" flags="" value="0.727272987366" parameter="130" symbol="stutter_resample_frequency"/>
+        <Controllable name="stutter_resample_sync" id="768" flags="" value="0.333332985640" parameter="131" symbol="stutter_resample_sync"/>
+        <Controllable name="stutter_resample_tempo" id="770" flags="" value="0.545454978943" parameter="132" symbol="stutter_resample_tempo"/>
+        <Controllable name="stutter_softness" id="772" flags="" value="0.200000002980" parameter="133" symbol="stutter_softness"/>
+        <Controllable name="stutter_sync" id="774" flags="" value="0.333332985640" parameter="134" symbol="stutter_sync"/>
+        <Controllable name="stutter_tempo" id="776" flags="" value="0.400000005960" parameter="135" symbol="stutter_tempo"/>
+        <Controllable name="sub_octave" id="778" flags="" value="0.000000000000" parameter="136" symbol="sub_octave"/>
+        <Controllable name="sub_shuffle" id="780" flags="" value="0.000000000000" parameter="137" symbol="sub_shuffle"/>
+        <Controllable name="sub_volume" id="782" flags="" value="0.000000000000" parameter="138" symbol="sub_volume"/>
+        <Controllable name="sub_waveform" id="784" flags="" value="0.200000002980" parameter="139" symbol="sub_waveform"/>
+        <Controllable name="unison_1_harmonize" id="786" flags="" value="0.000000000000" parameter="140" symbol="unison_1_harmonize"/>
+        <Controllable name="unison_2_harmonize" id="788" flags="" value="0.000000000000" parameter="141" symbol="unison_2_harmonize"/>
+        <Controllable name="velocity_track" id="790" flags="" value="0.500000000000" parameter="142" symbol="velocity_track"/>
+        <Controllable name="volume" id="792" flags="" value="0.499969005585" parameter="143" symbol="volume"/>
+      </Processor>
+      <Processor id="475" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="449" flags="GainLike" value="1.000000000000"/>
+      </Processor>
+      <Processor id="477" name="meter-MIDI" active="yes" user-latency="0" type="meter"/>
+      <Processor id="478" name="lead" active="yes" user-latency="0" own-input="yes" own-output="no" output="lead" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="464" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="468" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="466" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="470" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="472" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitoring" id="485" flags="RealTime" value="0.000000000000" monitoring=""/>
+      <Controllable name="recsafe" id="483" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="recenable" id="481" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="MIDI.1" name="MIDI" id="486" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
+    </Route>
+    <Route id="875" name="Bass" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="yes">
+      <PresentationInfo order="2" flags="MidiTrack,Selected,OrderSet" color="3804030463"/>
+      <Controllable name="solo" id="883" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="889" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="891" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <IO name="Bass" id="903" direction="Input" default-type="midi" user-latency="0">
+        <Port type="midi" name="Bass/midi_in 1"/>
+      </IO>
+      <IO name="Bass" id="904" direction="Output" default-type="midi" user-latency="0">
+        <Port type="audio" name="Bass/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Bass/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+        <Port type="midi" name="Bass/midi_out 1"/>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Controllable name="mute" id="885" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="phase" id="887" flags="Toggle" value="0.000000000000" phase-invert=""/>
+      <Automation/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="894" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="898" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="896" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="900" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="902" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="948" name="Helm" active="yes" user-latency="0" type="lv2" unique-id="http://tytel.org/helm" count="1" custom="no">
+        <ConfiguredInput>
+          <Channels type="midi" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="midi" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="midi" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="yes" state-dir="state3">
+          <Port symbol="lv2_freewheel" value="+0.000000"/>
+          <Port symbol="amp_attack" value="+0.027386"/>
+          <Port symbol="amp_decay" value="+0.375000"/>
+          <Port symbol="amp_release" value="+0.075000"/>
+          <Port symbol="amp_sustain" value="+1.000000"/>
+          <Port symbol="arp_frequency" value="+0.600000"/>
+          <Port symbol="arp_gate" value="+0.500000"/>
+          <Port symbol="arp_octaves" value="+0.000000"/>
+          <Port symbol="arp_on" value="+0.000000"/>
+          <Port symbol="arp_pattern" value="+0.000000"/>
+          <Port symbol="arp_sync" value="+0.333333"/>
+          <Port symbol="arp_tempo" value="+0.818182"/>
+          <Port symbol="beats_per_minute" value="+0.357143"/>
+          <Port symbol="cross_modulation" value="+0.000000"/>
+          <Port symbol="cutoff" value="+0.525253"/>
+          <Port symbol="delay_dry_wet" value="+0.500000"/>
+          <Port symbol="delay_feedback" value="+0.700000"/>
+          <Port symbol="delay_frequency" value="+0.571429"/>
+          <Port symbol="delay_on" value="+0.000000"/>
+          <Port symbol="delay_sync" value="+0.333333"/>
+          <Port symbol="delay_tempo" value="+0.818182"/>
+          <Port symbol="distortion_drive" value="+0.500000"/>
+          <Port symbol="distortion_mix" value="+1.000000"/>
+          <Port symbol="distortion_on" value="+1.000000"/>
+          <Port symbol="distortion_type" value="+0.000000"/>
+          <Port symbol="fil_attack" value="+0.000000"/>
+          <Port symbol="fil_decay" value="+0.375000"/>
+          <Port symbol="fil_env_depth" value="+0.500000"/>
+          <Port symbol="fil_release" value="+0.375000"/>
+          <Port symbol="fil_sustain" value="+0.500000"/>
+          <Port symbol="filter_blend" value="+0.000000"/>
+          <Port symbol="filter_drive" value="+0.375000"/>
+          <Port symbol="filter_on" value="+1.000000"/>
+          <Port symbol="filter_shelf" value="+0.000000"/>
+          <Port symbol="filter_style" value="+0.000000"/>
+          <Port symbol="formant_on" value="+0.000000"/>
+          <Port symbol="formant_x" value="+0.500000"/>
+          <Port symbol="formant_y" value="+0.500000"/>
+          <Port symbol="keytrack" value="+0.500000"/>
+          <Port symbol="legato" value="+0.000000"/>
+          <Port symbol="mod_attack" value="+0.000000"/>
+          <Port symbol="mod_decay" value="+0.375000"/>
+          <Port symbol="mod_release" value="+0.375000"/>
+          <Port symbol="mod_sustain" value="+0.500000"/>
+          <Port symbol="mono_lfo_1_amplitude" value="+1.000000"/>
+          <Port symbol="mono_lfo_1_frequency" value="+0.615385"/>
+          <Port symbol="mono_lfo_1_retrigger" value="+1.000000"/>
+          <Port symbol="mono_lfo_1_sync" value="+0.333333"/>
+          <Port symbol="mono_lfo_1_tempo" value="+0.545455"/>
+          <Port symbol="mono_lfo_1_waveform" value="+0.000000"/>
+          <Port symbol="mono_lfo_2_amplitude" value="+1.000000"/>
+          <Port symbol="mono_lfo_2_frequency" value="+0.615385"/>
+          <Port symbol="mono_lfo_2_retrigger" value="+1.000000"/>
+          <Port symbol="mono_lfo_2_sync" value="+0.333333"/>
+          <Port symbol="mono_lfo_2_tempo" value="+0.636364"/>
+          <Port symbol="mono_lfo_2_waveform" value="+0.000000"/>
+          <Port symbol="noise_volume" value="+0.000000"/>
+          <Port symbol="num_steps" value="+0.225806"/>
+          <Port symbol="osc_1_transpose" value="+0.500000"/>
+          <Port symbol="osc_1_tune" value="+0.500000"/>
+          <Port symbol="osc_1_unison_detune" value="+0.100000"/>
+          <Port symbol="osc_1_unison_voices" value="+0.000000"/>
+          <Port symbol="osc_1_volume" value="+0.547723"/>
+          <Port symbol="osc_1_waveform" value="+0.400000"/>
+          <Port symbol="osc_2_transpose" value="+0.500000"/>
+          <Port symbol="osc_2_tune" value="+0.500000"/>
+          <Port symbol="osc_2_unison_detune" value="+0.100000"/>
+          <Port symbol="osc_2_unison_voices" value="+0.000000"/>
+          <Port symbol="osc_2_volume" value="+0.547723"/>
+          <Port symbol="osc_2_waveform" value="+0.400000"/>
+          <Port symbol="osc_feedback_amount" value="+0.500000"/>
+          <Port symbol="osc_feedback_transpose" value="+0.500000"/>
+          <Port symbol="osc_feedback_tune" value="+0.500000"/>
+          <Port symbol="pitch_bend_range" value="+0.083333"/>
+          <Port symbol="poly_lfo_amplitude" value="+1.000000"/>
+          <Port symbol="poly_lfo_frequency" value="+0.615385"/>
+          <Port symbol="poly_lfo_sync" value="+0.333333"/>
+          <Port symbol="poly_lfo_tempo" value="+0.636364"/>
+          <Port symbol="poly_lfo_waveform" value="+0.000000"/>
+          <Port symbol="polyphony" value="+0.096774"/>
+          <Port symbol="portamento" value="+0.250000"/>
+          <Port symbol="portamento_type" value="+0.000000"/>
+          <Port symbol="resonance" value="+0.500000"/>
+          <Port symbol="reverb_damping" value="+0.500000"/>
+          <Port symbol="reverb_dry_wet" value="+0.500000"/>
+          <Port symbol="reverb_feedback" value="+0.500000"/>
+          <Port symbol="reverb_on" value="+0.000000"/>
+          <Port symbol="step_frequency" value="+0.636364"/>
+          <Port symbol="step_seq_00" value="+0.500000"/>
+          <Port symbol="step_seq_01" value="+0.500000"/>
+          <Port symbol="step_seq_02" value="+0.500000"/>
+          <Port symbol="step_seq_03" value="+0.500000"/>
+          <Port symbol="step_seq_04" value="+0.500000"/>
+          <Port symbol="step_seq_05" value="+0.500000"/>
+          <Port symbol="step_seq_06" value="+0.500000"/>
+          <Port symbol="step_seq_07" value="+0.500000"/>
+          <Port symbol="step_seq_08" value="+0.500000"/>
+          <Port symbol="step_seq_09" value="+0.500000"/>
+          <Port symbol="step_seq_10" value="+0.500000"/>
+          <Port symbol="step_seq_11" value="+0.500000"/>
+          <Port symbol="step_seq_12" value="+0.500000"/>
+          <Port symbol="step_seq_13" value="+0.500000"/>
+          <Port symbol="step_seq_14" value="+0.500000"/>
+          <Port symbol="step_seq_15" value="+0.500000"/>
+          <Port symbol="step_seq_16" value="+0.500000"/>
+          <Port symbol="step_seq_17" value="+0.500000"/>
+          <Port symbol="step_seq_18" value="+0.500000"/>
+          <Port symbol="step_seq_19" value="+0.500000"/>
+          <Port symbol="step_seq_20" value="+0.500000"/>
+          <Port symbol="step_seq_21" value="+0.500000"/>
+          <Port symbol="step_seq_22" value="+0.500000"/>
+          <Port symbol="step_seq_23" value="+0.500000"/>
+          <Port symbol="step_seq_24" value="+0.500000"/>
+          <Port symbol="step_seq_25" value="+0.500000"/>
+          <Port symbol="step_seq_26" value="+0.500000"/>
+          <Port symbol="step_seq_27" value="+0.500000"/>
+          <Port symbol="step_seq_28" value="+0.500000"/>
+          <Port symbol="step_seq_29" value="+0.500000"/>
+          <Port symbol="step_seq_30" value="+0.500000"/>
+          <Port symbol="step_seq_31" value="+0.500000"/>
+          <Port symbol="step_sequencer_retrigger" value="+1.000000"/>
+          <Port symbol="step_sequencer_sync" value="+0.333333"/>
+          <Port symbol="step_sequencer_tempo" value="+0.636364"/>
+          <Port symbol="step_smoothing" value="+0.000000"/>
+          <Port symbol="stutter_frequency" value="+0.428571"/>
+          <Port symbol="stutter_on" value="+0.000000"/>
+          <Port symbol="stutter_resample_frequency" value="+0.727273"/>
+          <Port symbol="stutter_resample_sync" value="+0.333333"/>
+          <Port symbol="stutter_resample_tempo" value="+0.545455"/>
+          <Port symbol="stutter_softness" value="+0.200000"/>
+          <Port symbol="stutter_sync" value="+0.333333"/>
+          <Port symbol="stutter_tempo" value="+0.400000"/>
+          <Port symbol="sub_octave" value="+0.000000"/>
+          <Port symbol="sub_shuffle" value="+0.000000"/>
+          <Port symbol="sub_volume" value="+0.000000"/>
+          <Port symbol="sub_waveform" value="+0.200000"/>
+          <Port symbol="unison_1_harmonize" value="+0.000000"/>
+          <Port symbol="unison_2_harmonize" value="+0.000000"/>
+          <Port symbol="velocity_track" value="+0.500000"/>
+          <Port symbol="volume" value="+0.499969"/>
+        </lv2>
+        <Controllable name="hidden" id="950" flags="Toggle" value="0.000000000000" parameter="1" symbol="lv2_freewheel"/>
+        <Controllable name="amp_attack" id="952" flags="" value="0.027386000380" parameter="5" symbol="amp_attack"/>
+        <Controllable name="amp_decay" id="954" flags="" value="0.375000000000" parameter="6" symbol="amp_decay"/>
+        <Controllable name="amp_release" id="956" flags="" value="0.075000002980" parameter="7" symbol="amp_release"/>
+        <Controllable name="amp_sustain" id="958" flags="" value="1.000000000000" parameter="8" symbol="amp_sustain"/>
+        <Controllable name="arp_frequency" id="960" flags="" value="0.600000023842" parameter="9" symbol="arp_frequency"/>
+        <Controllable name="arp_gate" id="962" flags="" value="0.500000000000" parameter="10" symbol="arp_gate"/>
+        <Controllable name="arp_octaves" id="964" flags="" value="0.000000000000" parameter="11" symbol="arp_octaves"/>
+        <Controllable name="arp_on" id="966" flags="" value="0.000000000000" parameter="12" symbol="arp_on"/>
+        <Controllable name="arp_pattern" id="968" flags="" value="0.000000000000" parameter="13" symbol="arp_pattern"/>
+        <Controllable name="arp_sync" id="970" flags="" value="0.333332985640" parameter="14" symbol="arp_sync"/>
+        <Controllable name="arp_tempo" id="972" flags="" value="0.818181991577" parameter="15" symbol="arp_tempo"/>
+        <Controllable name="beats_per_minute" id="974" flags="" value="0.357143014669" parameter="16" symbol="beats_per_minute"/>
+        <Controllable name="cross_modulation" id="976" flags="" value="0.000000000000" parameter="17" symbol="cross_modulation"/>
+        <Controllable name="cutoff" id="978" flags="" value="0.525252997875" parameter="18" symbol="cutoff"/>
+        <Controllable name="delay_dry_wet" id="980" flags="" value="0.500000000000" parameter="19" symbol="delay_dry_wet"/>
+        <Controllable name="delay_feedback" id="982" flags="" value="0.699999988079" parameter="20" symbol="delay_feedback"/>
+        <Controllable name="delay_frequency" id="984" flags="" value="0.571429014206" parameter="21" symbol="delay_frequency"/>
+        <Controllable name="delay_on" id="986" flags="" value="0.000000000000" parameter="22" symbol="delay_on"/>
+        <Controllable name="delay_sync" id="988" flags="" value="0.333332985640" parameter="23" symbol="delay_sync"/>
+        <Controllable name="delay_tempo" id="990" flags="" value="0.818181991577" parameter="24" symbol="delay_tempo"/>
+        <Controllable name="distortion_drive" id="992" flags="" value="0.500000000000" parameter="25" symbol="distortion_drive"/>
+        <Controllable name="distortion_mix" id="994" flags="" value="1.000000000000" parameter="26" symbol="distortion_mix"/>
+        <Controllable name="distortion_on" id="996" flags="" value="1.000000000000" parameter="27" symbol="distortion_on"/>
+        <Controllable name="distortion_type" id="998" flags="" value="0.000000000000" parameter="28" symbol="distortion_type"/>
+        <Controllable name="fil_attack" id="1000" flags="" value="0.000000000000" parameter="29" symbol="fil_attack"/>
+        <Controllable name="fil_decay" id="1002" flags="" value="0.375000000000" parameter="30" symbol="fil_decay"/>
+        <Controllable name="fil_env_depth" id="1004" flags="" value="0.500000000000" parameter="31" symbol="fil_env_depth"/>
+        <Controllable name="fil_release" id="1006" flags="" value="0.375000000000" parameter="32" symbol="fil_release"/>
+        <Controllable name="fil_sustain" id="1008" flags="" value="0.500000000000" parameter="33" symbol="fil_sustain"/>
+        <Controllable name="filter_blend" id="1010" flags="" value="0.000000000000" parameter="34" symbol="filter_blend"/>
+        <Controllable name="filter_drive" id="1012" flags="" value="0.375000000000" parameter="35" symbol="filter_drive"/>
+        <Controllable name="filter_on" id="1014" flags="" value="1.000000000000" parameter="36" symbol="filter_on"/>
+        <Controllable name="filter_shelf" id="1016" flags="" value="0.000000000000" parameter="37" symbol="filter_shelf"/>
+        <Controllable name="filter_style" id="1018" flags="" value="0.000000000000" parameter="38" symbol="filter_style"/>
+        <Controllable name="formant_on" id="1020" flags="" value="0.000000000000" parameter="39" symbol="formant_on"/>
+        <Controllable name="formant_x" id="1022" flags="" value="0.500000000000" parameter="40" symbol="formant_x"/>
+        <Controllable name="formant_y" id="1024" flags="" value="0.500000000000" parameter="41" symbol="formant_y"/>
+        <Controllable name="keytrack" id="1026" flags="" value="0.500000000000" parameter="42" symbol="keytrack"/>
+        <Controllable name="legato" id="1028" flags="" value="0.000000000000" parameter="43" symbol="legato"/>
+        <Controllable name="mod_attack" id="1030" flags="" value="0.000000000000" parameter="44" symbol="mod_attack"/>
+        <Controllable name="mod_decay" id="1032" flags="" value="0.375000000000" parameter="45" symbol="mod_decay"/>
+        <Controllable name="mod_release" id="1034" flags="" value="0.375000000000" parameter="46" symbol="mod_release"/>
+        <Controllable name="mod_sustain" id="1036" flags="" value="0.500000000000" parameter="47" symbol="mod_sustain"/>
+        <Controllable name="mono_lfo_1_amplitude" id="1038" flags="" value="1.000000000000" parameter="48" symbol="mono_lfo_1_amplitude"/>
+        <Controllable name="mono_lfo_1_frequency" id="1040" flags="" value="0.615384995937" parameter="49" symbol="mono_lfo_1_frequency"/>
+        <Controllable name="mono_lfo_1_retrigger" id="1042" flags="" value="1.000000000000" parameter="50" symbol="mono_lfo_1_retrigger"/>
+        <Controllable name="mono_lfo_1_sync" id="1044" flags="" value="0.333332985640" parameter="51" symbol="mono_lfo_1_sync"/>
+        <Controllable name="mono_lfo_1_tempo" id="1046" flags="" value="0.545454978943" parameter="52" symbol="mono_lfo_1_tempo"/>
+        <Controllable name="mono_lfo_1_waveform" id="1048" flags="" value="0.000000000000" parameter="53" symbol="mono_lfo_1_waveform"/>
+        <Controllable name="mono_lfo_2_amplitude" id="1050" flags="" value="1.000000000000" parameter="54" symbol="mono_lfo_2_amplitude"/>
+        <Controllable name="mono_lfo_2_frequency" id="1052" flags="" value="0.615384995937" parameter="55" symbol="mono_lfo_2_frequency"/>
+        <Controllable name="mono_lfo_2_retrigger" id="1054" flags="" value="1.000000000000" parameter="56" symbol="mono_lfo_2_retrigger"/>
+        <Controllable name="mono_lfo_2_sync" id="1056" flags="" value="0.333332985640" parameter="57" symbol="mono_lfo_2_sync"/>
+        <Controllable name="mono_lfo_2_tempo" id="1058" flags="" value="0.636363983154" parameter="58" symbol="mono_lfo_2_tempo"/>
+        <Controllable name="mono_lfo_2_waveform" id="1060" flags="" value="0.000000000000" parameter="59" symbol="mono_lfo_2_waveform"/>
+        <Controllable name="noise_volume" id="1062" flags="" value="0.000000000000" parameter="60" symbol="noise_volume"/>
+        <Controllable name="num_steps" id="1064" flags="" value="0.225805997849" parameter="61" symbol="num_steps"/>
+        <Controllable name="osc_1_transpose" id="1066" flags="" value="0.500000000000" parameter="62" symbol="osc_1_transpose"/>
+        <Controllable name="osc_1_tune" id="1068" flags="" value="0.500000000000" parameter="63" symbol="osc_1_tune"/>
+        <Controllable name="osc_1_unison_detune" id="1070" flags="" value="0.100000001490" parameter="64" symbol="osc_1_unison_detune"/>
+        <Controllable name="osc_1_unison_voices" id="1072" flags="" value="0.000000000000" parameter="65" symbol="osc_1_unison_voices"/>
+        <Controllable name="osc_1_volume" id="1074" flags="" value="0.547722995281" parameter="66" symbol="osc_1_volume"/>
+        <Controllable name="osc_1_waveform" id="1076" flags="" value="0.400000005960" parameter="67" symbol="osc_1_waveform"/>
+        <Controllable name="osc_2_transpose" id="1078" flags="" value="0.500000000000" parameter="68" symbol="osc_2_transpose"/>
+        <Controllable name="osc_2_tune" id="1080" flags="" value="0.500000000000" parameter="69" symbol="osc_2_tune"/>
+        <Controllable name="osc_2_unison_detune" id="1082" flags="" value="0.100000001490" parameter="70" symbol="osc_2_unison_detune"/>
+        <Controllable name="osc_2_unison_voices" id="1084" flags="" value="0.000000000000" parameter="71" symbol="osc_2_unison_voices"/>
+        <Controllable name="osc_2_volume" id="1086" flags="" value="0.547722995281" parameter="72" symbol="osc_2_volume"/>
+        <Controllable name="osc_2_waveform" id="1088" flags="" value="0.400000005960" parameter="73" symbol="osc_2_waveform"/>
+        <Controllable name="osc_feedback_amount" id="1090" flags="" value="0.500000000000" parameter="74" symbol="osc_feedback_amount"/>
+        <Controllable name="osc_feedback_transpose" id="1092" flags="" value="0.500000000000" parameter="75" symbol="osc_feedback_transpose"/>
+        <Controllable name="osc_feedback_tune" id="1094" flags="" value="0.500000000000" parameter="76" symbol="osc_feedback_tune"/>
+        <Controllable name="pitch_bend_range" id="1096" flags="" value="0.083333000541" parameter="77" symbol="pitch_bend_range"/>
+        <Controllable name="poly_lfo_amplitude" id="1098" flags="" value="1.000000000000" parameter="78" symbol="poly_lfo_amplitude"/>
+        <Controllable name="poly_lfo_frequency" id="1100" flags="" value="0.615384995937" parameter="79" symbol="poly_lfo_frequency"/>
+        <Controllable name="poly_lfo_sync" id="1102" flags="" value="0.333332985640" parameter="80" symbol="poly_lfo_sync"/>
+        <Controllable name="poly_lfo_tempo" id="1104" flags="" value="0.636363983154" parameter="81" symbol="poly_lfo_tempo"/>
+        <Controllable name="poly_lfo_waveform" id="1106" flags="" value="0.000000000000" parameter="82" symbol="poly_lfo_waveform"/>
+        <Controllable name="polyphony" id="1108" flags="" value="0.096773996949" parameter="83" symbol="polyphony"/>
+        <Controllable name="portamento" id="1110" flags="" value="0.250000000000" parameter="84" symbol="portamento"/>
+        <Controllable name="portamento_type" id="1112" flags="" value="0.000000000000" parameter="85" symbol="portamento_type"/>
+        <Controllable name="resonance" id="1114" flags="" value="0.500000000000" parameter="86" symbol="resonance"/>
+        <Controllable name="reverb_damping" id="1116" flags="" value="0.500000000000" parameter="87" symbol="reverb_damping"/>
+        <Controllable name="reverb_dry_wet" id="1118" flags="" value="0.500000000000" parameter="88" symbol="reverb_dry_wet"/>
+        <Controllable name="reverb_feedback" id="1120" flags="" value="0.500000000000" parameter="89" symbol="reverb_feedback"/>
+        <Controllable name="reverb_on" id="1122" flags="" value="0.000000000000" parameter="90" symbol="reverb_on"/>
+        <Controllable name="step_frequency" id="1124" flags="" value="0.636363983154" parameter="91" symbol="step_frequency"/>
+        <Controllable name="step_seq_00" id="1126" flags="" value="0.500000000000" parameter="92" symbol="step_seq_00"/>
+        <Controllable name="step_seq_01" id="1128" flags="" value="0.500000000000" parameter="93" symbol="step_seq_01"/>
+        <Controllable name="step_seq_02" id="1130" flags="" value="0.500000000000" parameter="94" symbol="step_seq_02"/>
+        <Controllable name="step_seq_03" id="1132" flags="" value="0.500000000000" parameter="95" symbol="step_seq_03"/>
+        <Controllable name="step_seq_04" id="1134" flags="" value="0.500000000000" parameter="96" symbol="step_seq_04"/>
+        <Controllable name="step_seq_05" id="1136" flags="" value="0.500000000000" parameter="97" symbol="step_seq_05"/>
+        <Controllable name="step_seq_06" id="1138" flags="" value="0.500000000000" parameter="98" symbol="step_seq_06"/>
+        <Controllable name="step_seq_07" id="1140" flags="" value="0.500000000000" parameter="99" symbol="step_seq_07"/>
+        <Controllable name="step_seq_08" id="1142" flags="" value="0.500000000000" parameter="100" symbol="step_seq_08"/>
+        <Controllable name="step_seq_09" id="1144" flags="" value="0.500000000000" parameter="101" symbol="step_seq_09"/>
+        <Controllable name="step_seq_10" id="1146" flags="" value="0.500000000000" parameter="102" symbol="step_seq_10"/>
+        <Controllable name="step_seq_11" id="1148" flags="" value="0.500000000000" parameter="103" symbol="step_seq_11"/>
+        <Controllable name="step_seq_12" id="1150" flags="" value="0.500000000000" parameter="104" symbol="step_seq_12"/>
+        <Controllable name="step_seq_13" id="1152" flags="" value="0.500000000000" parameter="105" symbol="step_seq_13"/>
+        <Controllable name="step_seq_14" id="1154" flags="" value="0.500000000000" parameter="106" symbol="step_seq_14"/>
+        <Controllable name="step_seq_15" id="1156" flags="" value="0.500000000000" parameter="107" symbol="step_seq_15"/>
+        <Controllable name="step_seq_16" id="1158" flags="" value="0.500000000000" parameter="108" symbol="step_seq_16"/>
+        <Controllable name="step_seq_17" id="1160" flags="" value="0.500000000000" parameter="109" symbol="step_seq_17"/>
+        <Controllable name="step_seq_18" id="1162" flags="" value="0.500000000000" parameter="110" symbol="step_seq_18"/>
+        <Controllable name="step_seq_19" id="1164" flags="" value="0.500000000000" parameter="111" symbol="step_seq_19"/>
+        <Controllable name="step_seq_20" id="1166" flags="" value="0.500000000000" parameter="112" symbol="step_seq_20"/>
+        <Controllable name="step_seq_21" id="1168" flags="" value="0.500000000000" parameter="113" symbol="step_seq_21"/>
+        <Controllable name="step_seq_22" id="1170" flags="" value="0.500000000000" parameter="114" symbol="step_seq_22"/>
+        <Controllable name="step_seq_23" id="1172" flags="" value="0.500000000000" parameter="115" symbol="step_seq_23"/>
+        <Controllable name="step_seq_24" id="1174" flags="" value="0.500000000000" parameter="116" symbol="step_seq_24"/>
+        <Controllable name="step_seq_25" id="1176" flags="" value="0.500000000000" parameter="117" symbol="step_seq_25"/>
+        <Controllable name="step_seq_26" id="1178" flags="" value="0.500000000000" parameter="118" symbol="step_seq_26"/>
+        <Controllable name="step_seq_27" id="1180" flags="" value="0.500000000000" parameter="119" symbol="step_seq_27"/>
+        <Controllable name="step_seq_28" id="1182" flags="" value="0.500000000000" parameter="120" symbol="step_seq_28"/>
+        <Controllable name="step_seq_29" id="1184" flags="" value="0.500000000000" parameter="121" symbol="step_seq_29"/>
+        <Controllable name="step_seq_30" id="1186" flags="" value="0.500000000000" parameter="122" symbol="step_seq_30"/>
+        <Controllable name="step_seq_31" id="1188" flags="" value="0.500000000000" parameter="123" symbol="step_seq_31"/>
+        <Controllable name="step_sequencer_retrigger" id="1190" flags="" value="1.000000000000" parameter="124" symbol="step_sequencer_retrigger"/>
+        <Controllable name="step_sequencer_sync" id="1192" flags="" value="0.333332985640" parameter="125" symbol="step_sequencer_sync"/>
+        <Controllable name="step_sequencer_tempo" id="1194" flags="" value="0.636363983154" parameter="126" symbol="step_sequencer_tempo"/>
+        <Controllable name="step_smoothing" id="1196" flags="" value="0.000000000000" parameter="127" symbol="step_smoothing"/>
+        <Controllable name="stutter_frequency" id="1198" flags="" value="0.428570985794" parameter="128" symbol="stutter_frequency"/>
+        <Controllable name="stutter_on" id="1200" flags="" value="0.000000000000" parameter="129" symbol="stutter_on"/>
+        <Controllable name="stutter_resample_frequency" id="1202" flags="" value="0.727272987366" parameter="130" symbol="stutter_resample_frequency"/>
+        <Controllable name="stutter_resample_sync" id="1204" flags="" value="0.333332985640" parameter="131" symbol="stutter_resample_sync"/>
+        <Controllable name="stutter_resample_tempo" id="1206" flags="" value="0.545454978943" parameter="132" symbol="stutter_resample_tempo"/>
+        <Controllable name="stutter_softness" id="1208" flags="" value="0.200000002980" parameter="133" symbol="stutter_softness"/>
+        <Controllable name="stutter_sync" id="1210" flags="" value="0.333332985640" parameter="134" symbol="stutter_sync"/>
+        <Controllable name="stutter_tempo" id="1212" flags="" value="0.400000005960" parameter="135" symbol="stutter_tempo"/>
+        <Controllable name="sub_octave" id="1214" flags="" value="0.000000000000" parameter="136" symbol="sub_octave"/>
+        <Controllable name="sub_shuffle" id="1216" flags="" value="0.000000000000" parameter="137" symbol="sub_shuffle"/>
+        <Controllable name="sub_volume" id="1218" flags="" value="0.000000000000" parameter="138" symbol="sub_volume"/>
+        <Controllable name="sub_waveform" id="1220" flags="" value="0.200000002980" parameter="139" symbol="sub_waveform"/>
+        <Controllable name="unison_1_harmonize" id="1222" flags="" value="0.000000000000" parameter="140" symbol="unison_1_harmonize"/>
+        <Controllable name="unison_2_harmonize" id="1224" flags="" value="0.000000000000" parameter="141" symbol="unison_2_harmonize"/>
+        <Controllable name="velocity_track" id="1226" flags="" value="0.500000000000" parameter="142" symbol="velocity_track"/>
+        <Controllable name="volume" id="1228" flags="" value="0.499969005585" parameter="143" symbol="volume"/>
+      </Processor>
+      <Processor id="905" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="879" flags="GainLike" value="1.000000000000"/>
+      </Processor>
+      <Processor id="907" name="meter-Bass" active="yes" user-latency="0" type="meter"/>
+      <Processor id="908" name="Bass" active="yes" user-latency="0" own-input="yes" own-output="no" output="Bass" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="894" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="898" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="896" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="900" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="902" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitoring" id="915" flags="RealTime" value="0.000000000000" monitoring=""/>
+      <Controllable name="recsafe" id="913" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="recenable" id="911" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="Bass.1" name="Bass" id="916" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
+    </Route>
+    <Route id="4671" name="Drums" default-type="audio" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="3" flags="AudioTrack,OrderSet" color="3855197951"/>
+      <Controllable name="solo" id="4679" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="4685" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
+      <Controllable name="solo-safe" id="4687" flags="Toggle" value="0.000000000000" solo-safe="no"/>
+      <IO name="Drums" id="4699" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Drums/audio_in 1"/>
+        <Port type="audio" name="Drums/audio_in 2"/>
+      </IO>
+      <IO name="Drums" id="4700" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Drums/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Drums/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="no"/>
+      <Controllable name="mute" id="4681" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="phase" id="4683" flags="Toggle" value="0.000000000000" phase-invert="00"/>
+      <Automation/>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="4690" flags="" value="0.500000000000"/>
+        <Controllable name="pan-width" id="4694" flags="" value="1.000000000000"/>
+        <Controllable name="pan-elevation" id="4692" flags="" value="0.000000000000"/>
+        <Controllable name="pan-frontback" id="4696" flags="" value="0.000000000000"/>
+        <Controllable name="pan-lfe" id="4698" flags="" value="0.000000000000"/>
+        <Automation/>
+      </Pannable>
+      <Processor id="4702" name="Amp" active="yes" user-latency="0" type="trim">
+        <Controllable name="trimcontrol" id="4677" flags="GainLike" value="1.000000000000"/>
+      </Processor>
+      <Processor id="4701" name="Amp" active="yes" user-latency="0" type="amp">
+        <Controllable name="gaincontrol" id="4675" flags="GainLike" value="1.578126072884"/>
+      </Processor>
+      <Processor id="4703" name="meter-Drums" active="yes" user-latency="0" type="meter"/>
+      <Processor id="4704" name="Drums" active="yes" user-latency="0" own-input="yes" own-output="no" output="Drums" type="main-outs" role="Main">
+        <PannerShell bypassed="no" user-panner="" linked-to-route="yes"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="4690" flags="" value="0.500000000000"/>
+          <Controllable name="pan-width" id="4694" flags="" value="1.000000000000"/>
+          <Controllable name="pan-elevation" id="4692" flags="" value="0.000000000000"/>
+          <Controllable name="pan-frontback" id="4696" flags="" value="0.000000000000"/>
+          <Controllable name="pan-lfe" id="4698" flags="" value="0.000000000000"/>
+          <Automation/>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitoring" id="4711" flags="RealTime" value="0.000000000000" monitoring=""/>
+      <Controllable name="recsafe" id="4709" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Controllable name="recenable" id="4707" flags="Toggle,RealTime" value="0.000000000000"/>
+      <Diskstream flags="Recordable" playlist="Drums.1" name="Drums" id="4712" speed="1.000000" capture-alignment="Automatic" record-safe="no" channels="2"/>
+    </Route>
+  </Routes>
+  <Playlists>
+    <Playlist id="487" name="MIDI.1" type="midi" orig-track-id="445" frozen="no" combine-ops="0">
+      <Region name="MIDI-4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1440601" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="49" id="842" type="midi" first-edit="nothing" source-0="840" master-source-0="840"/>
+    </Playlist>
+    <Playlist id="917" name="Bass.1" type="midi" orig-track-id="875" frozen="no" combine-ops="0">
+      <Region name="Bass-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1440600" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="49" id="1238" type="midi" first-edit="nothing" source-0="1236" master-source-0="1236"/>
+      <Region name="Bass-1.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="411600" position="823200" beat="28" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="14" id="2862" type="midi" first-edit="nothing" source-0="1236" master-source-0="1236"/>
+    </Playlist>
+    <Playlist id="4713" name="Drums.1" type="audio" orig-track-id="4671" frozen="no" combine-ops="0">
+      <Region name="Drums-1.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1439060" length="29400" position="0" beat="0" sync-position="1439060" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5054" type="audio" first-edit="nothing" source-0="4716" source-1="4718" master-source-0="4716" master-source-1="4718" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="5055" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="5056" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="5057" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="5058" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="Drums-1.11" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="27860" length="1411200" position="29400" beat="1" sync-position="27860" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="5005" type="audio" first-edit="nothing" source-0="4716" source-1="4718" master-source-0="4716" master-source-1="4718" channels="2">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="5006" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="5007" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="5008" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1
+64 1.0000000116861e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="5009" default="1" min-yval="0" max-yval="2" interpolation-style="Curved" state="Off" style="Absolute">
+            <events>0 1.0000000116861e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+  </Playlists>
+  <UnusedPlaylists/>
+  <RouteGroups/>
+  <Click>
+    <IO name="Click" id="48" direction="Output" default-type="audio" user-latency="0">
+      <Port type="audio" name="Click/audio_out 1">
+        <Connection other="system:playback_1"/>
+      </Port>
+      <Port type="audio" name="Click/audio_out 2">
+        <Connection other="system:playback_2"/>
+      </Port>
+    </IO>
+    <Processor id="49" name="Amp" active="yes" user-latency="0" type="amp">
+      <Controllable name="gaincontrol" id="47" flags="GainLike" value="1.000000000000"/>
+    </Processor>
+  </Click>
+  <LTC-In>
+    <IO name="LTC In" id="44" direction="Input" default-type="audio" user-latency="0">
+      <Port type="audio" name="LTC-in"/>
+    </IO>
+  </LTC-In>
+  <LTC-Out>
+    <IO name="LTC Out" id="45" direction="Output" default-type="audio" user-latency="0">
+      <Port type="audio" name="LTC-out"/>
+    </IO>
+  </LTC-Out>
+  <Speakers>
+    <Speaker azimuth="240" elevation="0" distance="1"/>
+    <Speaker azimuth="120" elevation="0" distance="1"/>
+  </Speakers>
+  <TempoMap>
+    <Tempo pulse="0.000000" frame="0" beats-per-minute="90.000000" note-type="4.000000" movable="no" active="yes" tempo-type="Ramp" lock-style="AudioTime" locked-to-meter="no"/>
+    <Meter pulse="0.000000" bbt="1|1|0" beat="0.000000" note-type="4.000000" frame="0" lock-style="AudioTime" divisions-per-bar="7.000000" movable="no"/>
+  </TempoMap>
+  <ControlProtocols>
+    <Protocol name="Wiimote" active="no"/>
+    <Protocol name="Open Sound Control (OSC)" active="no"/>
+    <Protocol name="PreSonus FaderPort" active="no"/>
+    <Protocol name="Ableton Push 2" active="no"/>
+    <Protocol name="Generic MIDI" active="no"/>
+    <Protocol name="Steinberg CC121" active="no"/>
+    <Protocol name="Mackie" active="no"/>
+  </ControlProtocols>
+  <Extra>
+    <UI>
+      <Window name="key-editor" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="session-options-editor" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="speaker-config" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="about" visible="no" x-off="0" y-off="0" x-size="470" y-size="611"/>
+      <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="287" y-size="352"/>
+      <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="inspector" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-midi-setup" visible="no" x-off="0" y-off="0" x-size="584" y-size="432"/>
+      <Window name="video-export" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="script-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="bundle-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="locations" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="big-clock" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-connection-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="midi-connection-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-51" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-445" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-875" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-51-82" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-51-81" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-51-83" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-51-84" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="PM-82-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-81-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-83-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-84-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-445-512" visible="no" x-off="0" y-off="137" x-size="471" y-size="54" custom-ui="no"/>
+      <Window name="P-445-475" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-445-477" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-445-478" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="PM-512-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-475-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-477-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-478-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-875-948" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-875-905" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-875-907" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-875-908" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="PM-948-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-905-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-907-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-908-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-4671" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-4671-4702" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-4671-4701" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-4671-4703" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-4671-4704" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="PM-4702-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-4701-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-4703-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-4704-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <GUIObjectState>
+        <Object id="rtav 51" height="66" visible="1"/>
+        <Object id="automation 55" height="66" visible="0"/>
+        <Object id="automation 57" height="66" visible="0"/>
+        <Object id="automation 51 12/0/0" height="66" visible="0"/>
+        <Object id="automation 70" height="66" visible="0"/>
+        <Object id="automation 74" height="66" visible="0"/>
+        <Object id="strip 51" visible="1" strip-width="Wide">
+          <Object id="processor 81"/>
+        </Object>
+        <Object id="strip 445" visible="1" strip-width="Wide">
+          <Object id="processor 475"/>
+          <Object id="processor 512"/>
+        </Object>
+        <Object id="rtav 445" height="228" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="50" note-range-max="65"/>
+        <Object id="automation 449" height="66" visible="0"/>
+        <Object id="automation 445 12/0/0" height="66" visible="0"/>
+        <Object id="automation 464" height="66" visible="0"/>
+        <Object id="automation 468" height="66" visible="0"/>
+        <Object id="rtav 875" height="308" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="36" note-range-max="54"/>
+        <Object id="automation 879" height="66" visible="0"/>
+        <Object id="automation 875 12/0/0" height="66" visible="0"/>
+        <Object id="automation 894" height="66" visible="0"/>
+        <Object id="automation 898" height="66" visible="0"/>
+        <Object id="strip 875" visible="1" strip-width="Wide">
+          <Object id="processor 948"/>
+          <Object id="processor 905"/>
+        </Object>
+        <Object id="rtav 4671" height="115" visible="1"/>
+        <Object id="automation 4675" height="66" visible="0"/>
+        <Object id="automation 4677" height="66" visible="0"/>
+        <Object id="automation 4671 12/0/0" height="66" visible="0"/>
+        <Object id="automation 4690" height="66" visible="0"/>
+        <Object id="automation 4694" height="66" visible="0"/>
+        <Object id="strip 4671" visible="1" strip-width="Wide">
+          <Object id="processor 4701"/>
+        </Object>
+      </GUIObjectState>
+    </UI>
+    <Videomonitor active="no"/>
+  </Extra>
+  <Script lua="Lua 5.3">c2NyaXB0cyA9IHt9IA==</Script>
+</Session>
