@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="e_locrian_7barLoop_7_8" sample-rate="44100" end-is-free="no" id-counter="6542" name-counter="1" event-counter="53564" vca-counter="1">
+<Session version="3002" name="e_locrian_7barLoop_7_4" sample-rate="44100" end-is-free="no" id-counter="9411" name-counter="1" event-counter="55494" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.5.0~dfsg-1+b1" modified-with="Ardour 1:5.5.0~dfsg-1+b1"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -511,7 +511,7 @@
       <Diskstream flags="Recordable" playlist="MIDI.1" name="MIDI" id="486" speed="1.000000" capture-alignment="Automatic" record-safe="no"/>
     </Route>
     <Route id="875" name="Bass" default-type="midi" strict-io="1" active="yes" denormal-protection="no" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="no" input-active="yes">
-      <PresentationInfo order="2" flags="MidiTrack,Selected,OrderSet" color="3804030463"/>
+      <PresentationInfo order="2" flags="MidiTrack,OrderSet" color="3804030463"/>
       <Controllable name="solo" id="883" flags="Toggle,RealTime" value="0.000000000000" self-solo="no" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="889" flags="Toggle,RealTime" value="0.000000000000" solo-isolated="no"/>
       <Controllable name="solo-safe" id="891" flags="Toggle" value="0.000000000000" solo-safe="no"/>
@@ -843,7 +843,7 @@
         <Controllable name="volume" id="1228" flags="" value="0.499969005585" parameter="143" symbol="volume"/>
       </Processor>
       <Processor id="905" name="Amp" active="yes" user-latency="0" type="amp">
-        <Controllable name="gaincontrol" id="879" flags="GainLike" value="1.000000000000"/>
+        <Controllable name="gaincontrol" id="879" flags="GainLike" value="0.166980147362"/>
       </Processor>
       <Processor id="907" name="meter-Bass" active="yes" user-latency="0" type="meter"/>
       <Processor id="908" name="Bass" active="yes" user-latency="0" own-input="yes" own-output="no" output="Bass" type="main-outs" role="Main">
@@ -1007,7 +1007,9 @@
   </Click>
   <LTC-In>
     <IO name="LTC In" id="44" direction="Input" default-type="audio" user-latency="0">
-      <Port type="audio" name="LTC-in"/>
+      <Port type="audio" name="LTC-in">
+        <Connection other="system:capture_1"/>
+      </Port>
     </IO>
   </LTC-In>
   <LTC-Out>
@@ -1041,7 +1043,7 @@
       <Window name="add-routes" visible="no" x-off="-1" y-off="-1" x-size="287" y-size="352"/>
       <Window name="add-video" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="no" x-off="1408" y-off="504" x-size="624" y-size="432"/>
+      <Window name="audio-midi-setup" visible="no" x-off="0" y-off="0" x-size="584" y-size="432"/>
       <Window name="video-export" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="bundle-manager" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -1069,7 +1071,7 @@
       <Window name="PM-475-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-477-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-478-" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-875-948" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
+      <Window name="P-875-948" visible="no" x-off="0" y-off="138" x-size="471" y-size="54" custom-ui="yes"/>
       <Window name="P-875-905" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-875-907" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
       <Window name="P-875-908" visible="no" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="no"/>
